@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_girls"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.henry.helloonwindows.girls"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:src="@drawable/balckwoman"
+        android:layout_width="346dp"
+        android:layout_height="487dp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:id="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/activity_girls"
+        tools:layout_constraintTop_creator="0"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_girls"
+        android:layout_marginBottom="16dp"
+        tools:layout_constraintBottom_creator="0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:text="Home"
+        android:layout_width="128dp"
+        android:layout_height="63dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="416dp"
+        android:id="@+id/button"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_girls"
+        android:layout_marginBottom="32dp"
+        tools:layout_constraintBottom_creator="0" />
+
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dolor nisl, lobortis sed velit et, eleifend dignissim libero. Sed at mauris at dolor vehicula tempor. Praesent ullamcorper laoreet lacus, nec molestie arcu egestas nec. Vivamus ut ipsum at neque fermentum aliquet. Curabitur vel nibh eu elit mollis feugiat a ut nulla. Etiam id felis a nisi rutrum mollis. Duis felis est, sodales a porttitor quis, molestie sed erat. Donec bibendum placerat magna interdum facilisis. Sed bibendum cursus mauris, vitae placerat purus varius mollis. Suspendisse vel iaculis diam."
+        android:layout_width="321dp"
+        android:layout_height="336dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:id="@+id/textView3" />
+
+</android.support.constraint.ConstraintLayout>

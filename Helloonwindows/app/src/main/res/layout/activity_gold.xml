@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gold"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.henry.helloonwindows.gold"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:text="Home"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="395dp"
+        android:id="@+id/homefrmg"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:visibility="visible"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ."
+        android:layout_width="266dp"
+        android:layout_height="327dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="37dp"
+        android:id="@+id/textView2"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+</android.support.constraint.ConstraintLayout>

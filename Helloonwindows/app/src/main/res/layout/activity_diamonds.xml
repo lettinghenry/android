@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_diamonds"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.henry.helloonwindows.diamonds"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:text="Home"
+        android:layout_width="207dp"
+        android:layout_height="50dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="395dp"
+        android:id="@+id/homed"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:visibility="visible"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_diamonds"
+        tools:layout_constraintLeft_creator="0"
+        app:layout_constraintRight_toRightOf="@+id/activity_diamonds"
+        tools:layout_constraintRight_creator="0" />
+
+    <TextView
+        android:text="This is a diamond"
+        android:layout_width="214dp"
+        android:layout_height="71dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="272dp"
+        android:id="@+id/textView"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_diamonds"
+        tools:layout_constraintLeft_creator="0"
+        app:layout_constraintTop_toTopOf="@+id/activity_diamonds"
+        tools:layout_constraintTop_creator="0"
+        app:layout_constraintRight_toRightOf="@+id/activity_diamonds"
+        tools:layout_constraintRight_creator="0"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_diamonds"
+        tools:layout_constraintBottom_creator="0"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <ImageView
+        android:src="@drawable/pinkdiamond"
+        android:layout_width="254dp"
+        android:layout_height="164dp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="45dp"
+        android:id="@+id/imageView" />
+</android.support.constraint.ConstraintLayout>
+
+
+
+
